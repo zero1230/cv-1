@@ -13,11 +13,22 @@
             word-break: break-all;
            
         }
+
+        @keyframes spin{
+            form{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
          #div1{
             position: fixed;
             left: 50%;
             transform: translateX(-50%);
             top:20px;
+            animation: spin 3s infinite linear;
         }
 
         #div1::after{
