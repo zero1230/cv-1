@@ -20,6 +20,9 @@ let strings=`/*你好，我是一名前端新人
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
 }
 
+/*接下来画两个神秘小球
+**/
+
 #div1::before{
     width:100px;
     height:100px;

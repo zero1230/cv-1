@@ -35,9 +35,7 @@
         }
 
         @media (max-width: 500px) {
-            body{
-                color: red
-            }
+            
 
             #html{
             word-break: break-all;
