@@ -42,6 +42,12 @@ let strings=`/*你好，我是一名前端新人
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%);
 }
+/*接下来让太极图转起来
+**/
+#div1{
+    animation: spin 3s infinite linear ;
+    margin-left:-100px;
+}
 
 ` 
 let string2=''

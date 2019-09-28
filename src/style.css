@@ -13,7 +13,14 @@
             word-break: break-all;
            
         }
-
+        @keyframes spin{
+            from{
+                transform: rotate(0deg)
+            }
+            to{
+                transform: rotate(360deg)
+            }
+        }
        
 
          #div1{
@@ -21,6 +28,7 @@
             left: 50%;
             transform: translateX(-50%);
             top:20px;
+            
            
         }
 
